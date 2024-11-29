@@ -1,0 +1,26 @@
+.follow-all-button {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 999;
+
+	font-family: sans-serif;
+
+	background-color: #1da1f2;
+	color: white;
+	border: none;
+	border-radius: 5rem;
+	padding: 1rem 2rem;
+
+	cursor: pointer;
+	transition: background-color 300ms;
+}
+
+.follow-all-button:hover {
+	background-color: #0f91e8;
+}
+
+.follow-all-button:disabled {
+	background-color: #9ecae1;
+	cursor: not-allowed;
+}
